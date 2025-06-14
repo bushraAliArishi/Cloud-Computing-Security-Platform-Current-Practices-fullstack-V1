@@ -26,7 +26,7 @@ This platform is designed to help organizations:
 
 - **Backend:** Java, Spring Boot, Spring Security, JPA  
 - **Frontend:** React, TypeScript, HTML, CSS  
-- **Database:** MySQL or PostgreSQL  
+- **Database:** MySQL 
 - **Tools:** GitHub Codespaces, IntelliJ IDEA, VS Code
 
 ---
