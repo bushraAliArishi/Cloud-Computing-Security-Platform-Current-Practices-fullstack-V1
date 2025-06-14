@@ -1,9 +1,9 @@
 
-````markdown
 # Cloud Computing Security Platform – Fullstack Version
 
 This is a full-stack web application based on my original graduation project:  
-**Cloud Computing Security Platform – Current Practices**  
+**Cloud Computing Security Platform – Current Practices**
+
 🔗 [View original project](https://github.com/bushraAliArishi/Cloud-Computing-Security-Platform-Current-Practices)
 
 The fullstack version is rebuilt using **Spring Boot** for the backend and **React** for the frontend.  
@@ -15,10 +15,10 @@ The current development is done entirely through **GitHub Codespaces** to ensure
 
 This platform is designed to help organizations:
 
-- Evaluate their cloud security practices.
-- Document assessments securely.
-- Identify risks and compliance gaps.
-- Generate reports for operational improvement and compliance.
+- Evaluate their cloud security practices  
+- Document assessments securely  
+- Identify risks and compliance gaps  
+- Generate reports for operational improvement and compliance
 
 ---
 
@@ -43,7 +43,7 @@ This platform is designed to help organizations:
 
 ## Getting Started
 
-> 💡 This project is developed directly inside GitHub Codespaces.
+> This project is developed directly inside GitHub Codespaces.
 
 ### Backend
 
@@ -84,5 +84,4 @@ Backend Developer | Cloud Security Enthusiast | Fullstack Projects Builder
 
 [Connect with me on LinkedIn](https://www.linkedin.com/in/bushraaliarishi)
 
-```
 
