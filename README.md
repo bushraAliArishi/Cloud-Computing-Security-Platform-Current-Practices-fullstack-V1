@@ -1,58 +1,58 @@
 
 ````markdown
-# ☁️ Cloud Computing Security Platform – Fullstack Version
+# Cloud Computing Security Platform – Fullstack Version
 
 This is a full-stack web application based on my original graduation project:  
-**"Cloud Computing Security Platform – Current Practices"**
+**Cloud Computing Security Platform – Current Practices**  
+🔗 [View original project](https://github.com/bushraAliArishi/Cloud-Computing-Security-Platform-Current-Practices)
 
-It has been rebuilt using **Spring Boot** for the backend and **React** for the frontend, reflecting the full-stack knowledge I developed during the **Tuwaiq Bootcamp**.  
-The development is currently taking place directly inside **GitHub Codespaces**.
+The fullstack version is rebuilt using **Spring Boot** for the backend and **React** for the frontend.  
+The current development is done entirely through **GitHub Codespaces** to ensure portability and fast setup.
 
- 
-## 📌 Project Overview
+---
+
+## Overview
 
 This platform is designed to help organizations:
 
 - Evaluate their cloud security practices.
 - Document assessments securely.
 - Identify risks and compliance gaps.
-- Generate reports for operational improvement.
+- Generate reports for operational improvement and compliance.
 
 ---
 
-## 🔧 Tech Stack
+## Tech Stack
 
-| Layer        | Technology                                  |
-|--------------|---------------------------------------------|
-| **Backend**  | Java, Spring Boot, Spring Security, JPA     |
-| **Frontend** | React, TypeScript, HTML, CSS                |
-| **Database** | MySQL                                       |
-| **Tools**    | GitHub Codespaces, IntelliJ IDEA, VS Code   |
+- **Backend:** Java, Spring Boot, Spring Security, JPA  
+- **Frontend:** React, TypeScript, HTML, CSS  
+- **Database:** MySQL or PostgreSQL  
+- **Tools:** GitHub Codespaces, IntelliJ IDEA, VS Code
 
 ---
 
-## 🔐 Key Features
+## Key Features
 
-- Role-based authentication (Admin, Auditor, Security Staff)
-- Secure login and session management
-- Dynamic forms for security evaluation
-- Report generation and export
-- RESTful APIs with validation and error handling
-- Responsive frontend UI
+- **Role-based authentication:** Admin, Auditor, Security Staff  
+- **Security evaluations:** Dynamic forms and scoring  
+- **Reports:** Export and review security practice reports  
+- **RESTful APIs:** With input validation and structured responses  
+- **Responsive UI:** Built with React for all device sizes
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
-> ⚠️ This project is developed directly inside **GitHub Codespaces** for fast setup and collaboration.
+> 💡 This project is developed directly inside GitHub Codespaces.
 
-### Backend Setup (Spring Boot)
+### Backend
+
 ```bash
 cd backend
 ./mvnw spring-boot:run
 ````
 
-### Frontend Setup (React)
+### Frontend
 
 ```bash
 cd frontend
@@ -62,26 +62,27 @@ npm start
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
-/backend     --> Spring Boot backend source code
-/frontend    --> React frontend source code
+/backend     -> Spring Boot backend
+/frontend    -> React frontend
 ```
 
 ---
 
-## 📄 License
+## License
 
-This project is open for educational and demonstration purposes only.
+This project is provided for educational and demonstration purposes only.
 
 ---
 
-## 👩‍💻 About the Developer
+## About the Developer
 
 Developed by **Bushra Ali Arishi**
-A backend developer passionate about cloud security and full-stack applications.
+Backend Developer | Cloud Security Enthusiast | Fullstack Projects Builder
 
-[![Connect on LinkedIn](https://img.shields.io/badge/Connect%20on-LinkedIn-blue?logo=linkedin)](https://www.linkedin.com/in/bushraaliarishi)
+[Connect with me on LinkedIn](https://www.linkedin.com/in/bushraaliarishi)
 
+```
 
