@@ -1,13 +1,18 @@
 package com.example.backend.Model;
 
+import java.io.File;
 import java.time.LocalDateTime;
+import java.util.Set;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 
+import jakarta.persistence.CascadeType;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
 import jakarta.persistence.JoinColumn;
+import jakarta.persistence.ManyToOne;
 import jakarta.persistence.MapsId;
+import jakarta.persistence.OneToMany;
 import jakarta.persistence.OneToOne;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -23,7 +28,7 @@ import lombok.Setter;
 public class Profile {
 
     @Id
-    private Long id;
+    private Integer  id;
 
     private String fName;
     private String lName;
@@ -35,5 +40,9 @@ public class Profile {
     @JsonIgnore
     @JoinColumn(name = "user_id")
     private MyUser myUser;
+     
+    @OneToMany(mappedBy = "file", cascade = CascadeType.ALL, orphanRemoval = true)
+    private Set<File> files;
+
 
 }
