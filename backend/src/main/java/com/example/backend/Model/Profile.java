@@ -1,29 +1,39 @@
 package com.example.backend.Model;
 
+import java.time.LocalDateTime;
 
-import jakarta.persistence.*;
-import lombok.*;
-import org.springframework.security.core.GrantedAuthority;
-import org.springframework.security.core.userdetails.UserDetails;
+import com.fasterxml.jackson.annotation.JsonIgnore;
 
-import java.sql.Date;
-import java.util.Collection;
-import java.util.List;
-import java.util.Set;
+import jakarta.persistence.Entity;
+import jakarta.persistence.Id;
+import jakarta.persistence.JoinColumn;
+import jakarta.persistence.MapsId;
+import jakarta.persistence.OneToOne;
+import lombok.AllArgsConstructor; // ✅ هذا هو المطلوب
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
 
 @Setter
 @Getter
 @AllArgsConstructor
 @NoArgsConstructor
 @Entity
- 
+
 public class Profile {
 
-   private String fName;
-   private String lName;
-   private int age;
-   private String job;
-   private LocalDateTime dob ;
+    @Id
+    private Long id;
 
+    private String fName;
+    private String lName;
+    private int age;
+    private String job;
+    private LocalDateTime dob;
+    @OneToOne
+    @MapsId
+    @JsonIgnore
+    @JoinColumn(name = "user_id")
+    private MyUser myUser;
 
 }
