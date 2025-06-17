@@ -8,8 +8,8 @@ import org.springframework.security.core.userdetails.UserDetails;
 import java.util.Collection;
 import java.util.List;
 
-// @Setter
-// @Getter
+@Setter
+@Getter
 // @AllArgsConstructor
 // @NoArgsConstructor
 @Entity
