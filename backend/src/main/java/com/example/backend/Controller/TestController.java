@@ -7,7 +7,7 @@ import lombok.RequiredArgsConstructor;
 
 @RestController
 @RequiredArgsConstructor
-@RequestMapping("/api/v1/cloud_computing_security_platform")
+@RequestMapping("/v1/cloud_computing_security_platform")
 public class TestController {
 
     @GetMapping("/test")

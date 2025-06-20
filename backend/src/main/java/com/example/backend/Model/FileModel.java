@@ -20,7 +20,7 @@ import lombok.Setter;
 @NoArgsConstructor
 @Entity
 
-public class file {
+public class FileModel {
    
  
     @Id
@@ -32,11 +32,11 @@ public class file {
     private String filePath;
     private long fileSize;
     
-    
     @ManyToOne
     @JsonIgnore
     @JoinColumn(name = "profile_id")
     private Profile profile;
+
 
 
 }

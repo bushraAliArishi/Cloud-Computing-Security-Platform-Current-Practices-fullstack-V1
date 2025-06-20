@@ -41,8 +41,8 @@ public class Profile {
     @JoinColumn(name = "user_id")
     private MyUser myUser;
      
-    @OneToMany(mappedBy = "file", cascade = CascadeType.ALL, orphanRemoval = true)
-    private Set<File> files;
+    @OneToMany(mappedBy = "profile", cascade = CascadeType.ALL, orphanRemoval = true)
+    private Set<FileModel> filesmodel;
 
 
 }
